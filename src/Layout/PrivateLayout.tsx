@@ -251,7 +251,10 @@ const PrivateLayout = () => {
             background: colorBgContainer,
             display: "flex",
             alignItems: "center",
-            position:"static",
+            position: "sticky",
+            top: 0,
+            zIndex:10000,
+            marginBottom:10,
             justifyContent: "space-between",
           }}
         >

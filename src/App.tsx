@@ -20,6 +20,9 @@ import Register from "./pages/register/Register";
 import RegisterVerification from "./pages/registerverification/RegisterVerification";
 import ResetPassword from "./pages/resetpassword/ResetPassword";
 import Orders from "./pages/staff/Orders";
+import Support from "./pages/support/Support";
+import Transactions from "./pages/transactions/Transactions";
+import Requests from "./pages/requests/Requests";
 
 function App() {
   const router = createBrowserRouter(
@@ -41,6 +44,18 @@ function App() {
           <Route path="dashboard" element={<Home />} />
           <Route path="orders">
             <Route index element={<Orders />} />
+            <Route path=":id" element={<Details />} />
+          </Route>
+          <Route path="support">
+            <Route index element={<Support/>} />
+            <Route path=":id" element={<Details />} />
+          </Route>
+          <Route path="transactions">
+            <Route index element={<Transactions />} />
+            <Route path=":id" element={<Details />} />
+          </Route>
+          <Route path="requests">
+            <Route index element={<Requests/>} />
             <Route path=":id" element={<Details />} />
           </Route>
           <Route path="meetings">
