@@ -1,0 +1,29 @@
+.ant-menu-item,
+.ant-menu-title-content,
+.ant-menu-submenu-title {
+  display: flex;
+  align-items: center;
+}
+.ant-menu-title-content > span {
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-item .anticon {
+  margin-right: 8px;
+}
+.ant-breadcrumb-link {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+}
+.ant-breadcrumb-link  > * {
+  margin-right: 10px;
+}
+.breadcrumbs .crumb:after {
+  content: "/";
+  margin-left: 10px;
+}
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}

@@ -1,0 +1,9 @@
+.ant-modal-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 50px;
+    
+}
