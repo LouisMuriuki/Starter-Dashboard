@@ -253,8 +253,8 @@ const PrivateLayout = () => {
             alignItems: "center",
             position: "sticky",
             top: 0,
-            zIndex:10000,
-            marginBottom:10,
+            zIndex: 10000,
+            marginBottom: 10,
             justifyContent: "space-between",
           }}
         >
